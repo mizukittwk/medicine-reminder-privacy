@@ -82,6 +82,13 @@
             border-radius: 5px;
             margin-top: 30px;
         }
+        .subscription-info {
+            background-color: #f0f9ff;
+            border: 1px solid #0ea5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
@@ -124,11 +131,42 @@
                 <li>カスタマーサポートの提供</li>
             </ul>
 
+            <h2>広告識別子の使用</h2>
+            <p>広告識別子（IDFA）は以下の目的で収集します：</p>
+            <ul>
+                <li>Google AdMobを通じたパーソナライズ広告の配信</li>
+                <li>広告キャンペーンの効果測定</li>
+                <li>同じ広告の繰り返し表示を防ぐフリークエンシーキャップ</li>
+                <li>この識別子は個人の身元とは紐付けられません</li>
+            </ul>
+
+            <h2>App Tracking Transparency（アプリトラッキングの透明性）</h2>
+            <p>iOS 14.5以降の場合：</p>
+            <ul>
+                <li>アクティビティをトラッキングする前に許可をリクエストします</li>
+                <li>アプリを初めて起動したときに許可を求めるプロンプトが表示されます</li>
+                <li>設定 > プライバシーとセキュリティ > トラッキング からいつでも許可を変更できます</li>
+                <li>トラッキングを拒否した場合でも広告は表示されますが、パーソナライズされていない広告になります</li>
+            </ul>
+
+            <h2>サブスクリプション情報</h2>
+            <div class="subscription-info">
+                <h3>お薬リマインダー プレミアム</h3>
+                <ul>
+                    <li><strong>料金：</strong>月額300円</li>
+                    <li><strong>期間：</strong>1ヶ月（自動更新）</li>
+                    <li><strong>特典：</strong>広告非表示、無制限のお薬記録、プレミアムテーマ</li>
+                    <li><strong>解約：</strong>App Storeのアカウント設定からいつでも解約可能</li>
+                    <li><strong>支払い：</strong>Apple IDアカウントに請求されます</li>
+                    <li><strong>更新：</strong>現在の期間終了の24時間前までに解約しない限り、自動的に更新されます</li>
+                </ul>
+            </div>
+
             <h2>第三者との情報共有</h2>
             <p>以下の第三者サービスと情報を共有する場合があります：</p>
             <ul>
-                <li><strong>Google AdMob</strong>: 広告配信のため（<a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a>）</li>
-                <li><strong>Apple/Google</strong>: アプリ内課金処理のため</li>
+                <li><strong>Google AdMob</strong>: 広告配信のため（<a href="https://policies.google.com/privacy?hl=ja" target="_blank">Google プライバシーポリシー</a>）</li>
+                <li><strong>Apple</strong>: アプリ内課金処理のため</li>
             </ul>
             <p>お客様の個人情報を販売することはありません。</p>
 
@@ -156,7 +194,7 @@
             <div class="contact">
                 <h2>お問い合わせ</h2>
                 <p>プライバシーに関するご質問やご懸念がある場合は、以下までご連絡ください：</p>
-                <p>メール: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>メール: <a href="mailto:mizuki.tatewaka@gmail.com">mizuki.tatewaka@gmail.com</a></p>
             </div>
         </div>
 
@@ -193,11 +231,42 @@
                 <li>Providing customer support</li>
             </ul>
 
+            <h2>Use of Advertising Identifier</h2>
+            <p>We collect the Advertising Identifier (IDFA) specifically for:</p>
+            <ul>
+                <li>Serving personalized advertisements through Google AdMob</li>
+                <li>Measuring ad campaign effectiveness</li>
+                <li>Frequency capping to avoid showing the same ad repeatedly</li>
+                <li>This identifier is not linked to your personal identity</li>
+            </ul>
+
+            <h2>App Tracking Transparency</h2>
+            <p>On iOS 14.5 and later:</p>
+            <ul>
+                <li>We will request permission before tracking your activity</li>
+                <li>You will see a prompt asking for permission when you first launch the app</li>
+                <li>You can change this permission at any time in Settings > Privacy & Security > Tracking</li>
+                <li>If you decline tracking, you will still see ads, but they won't be personalized</li>
+            </ul>
+
+            <h2>Subscription Information</h2>
+            <div class="subscription-info">
+                <h3>Medicine Reminder Premium</h3>
+                <ul>
+                    <li><strong>Price:</strong> ¥300 per month</li>
+                    <li><strong>Duration:</strong> 1 month (auto-renewable)</li>
+                    <li><strong>Features:</strong> Ad-free experience, unlimited medicine tracking, premium themes</li>
+                    <li><strong>Cancellation:</strong> You can cancel anytime through your App Store account settings</li>
+                    <li><strong>Payment:</strong> Payment will be charged to your Apple ID account</li>
+                    <li><strong>Renewal:</strong> Subscription automatically renews unless canceled at least 24 hours before the end of the current period</li>
+                </ul>
+            </div>
+
             <h2>Information Sharing with Third Parties</h2>
             <p>We may share information with the following third-party services:</p>
             <ul>
                 <li><strong>Google AdMob</strong>: For ad delivery (<a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>)</li>
-                <li><strong>Apple/Google</strong>: For in-app purchase processing</li>
+                <li><strong>Apple</strong>: For in-app purchase processing</li>
             </ul>
             <p>We never sell your personal information.</p>
 
@@ -225,7 +294,7 @@
             <div class="contact">
                 <h2>Contact Us</h2>
                 <p>If you have questions or concerns about privacy, please contact us at:</p>
-                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>Email: <a href="mailto:mizuki.tatewaka@gmail.com">mizuki.tatewaka@gmail.com</a></p>
             </div>
         </div>
     </div>
